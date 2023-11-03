@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #2D2D2D;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+ .footer-col h4{             /* headings company etc   */
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+  font: Roboto;
+  /* line-height: 27px; */
+  /* height: 33.64px; */
+  width: 170.88px;
+ 
+	margin-bottom: 35px;
+	font-weight: 600;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+/* 	color: #ffffff; */
+	text-decoration: none;
+	font-weight: 400;
+  font-style: roboto;
+  line-height: 24px;
+	color: #FFFFFF;
+	display: block;
+  opacity: 60% ;
+  left: 26px;
+  /* height: 29.9px; */
+  width: 210.87px;
+  container-name: paragraph;
+	
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 45px;
+	width: 40px;
+	background-color: #ffffff;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+	width: 20px;
+height: 20px;
+top: 3397px;
+left: 233px;
+padding: 1.87px, 0px, 1.87px, 0px;
+
+}
+
+.social-links a i{
+	color: #FFFFFF;
+}
+.footer-col .social-links a:hover{
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+ .footer-col h1 {     /* shoppeal heading */
+  color: #ffffff;
+  font-style: Sanchez;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 69px;
+  letter-spacing: 0.5px;
+  Width: 228.81px;
+
+
+}
+.footer-col h3 {
+
+  color: #ffffff;
+  font-style: Roboto ;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+ 
+}
+
+.flex1{
+ 
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #F16F17 -1.63%, #FBBA44 98.67%);
+
+}
+.flex1 button{
+	position: absolute;
+	left: 145px;
+	top: -2px;
+	background: linear-gradient(90.41deg, #F16F17 -1.63%, #FBBA44 98.67%);
+outline: none;
+  font-size: 16px;
+  width: 130px;
+ 
+  border-radius: 10px;
+  
+  height: 45px;
+}
+.flex1 input{
+    border-radius: 10px;
+	height: 43px;
+	width: 240px;
+	border: 2px solid black;
+	 background: rgba(5, 73, 79, 1);
+	
+}
+.footer-base{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-base p{
+	color: #FFFFFF;
+}
+.footer{
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+}
